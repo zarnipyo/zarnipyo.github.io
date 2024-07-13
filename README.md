@@ -1,1 +1,0 @@
-# zarnipyo.github.io
