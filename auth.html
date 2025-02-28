@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Test</title>
+</head>
+
+<body>
+    <button>Sign</button>
+    <pre class="init"></pre>
+    <pre class="status"></pre>
+</body>
+
+<script>
+    let init = document.querySelector("pre.init")
+    init.innerHTML += `PublicKeyCredential=${typeof window.PublicKeyCredential}\n`
+    let status = document.querySelector("pre.status")
+    
+    document.querySelector("button").addEventListener("click", async (e) => {
+        
+    })
+</script>
+
+</html>
